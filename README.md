@@ -17,7 +17,7 @@ https://kubernetes.github.io/ingress-nginx/deploy/#docker-desktop
      
       Run kubectl get pods -n ingress-nginx
 ## Running The Application in git bash
-### Create a new deployment 
+### Create a new (deployment,server,ingress) 
        kubectl apply -f Kubernetes-ingress.yaml 
 ### check if the Deployment was created
          kubectl get deploy
