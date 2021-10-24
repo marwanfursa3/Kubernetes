@@ -3,13 +3,11 @@
 
 ## Create a new deployment with a name of your choice
      a. Image to use: yanivomc/spring-music:latest
-## Once the service is deployed (verify)
-## Expose the deploy using type = ClusterIP and with port 8090:8080
-## Once Exposed and verified scale your pods to 2
-## Create an Ingress to access the service using http://127.0.0.1/music 
+### Once the service is deployed (verify)
+### Expose the deploy using type = ClusterIP and with port 8090:8080
+### Once Exposed and verified scale your pods to 2
+### Create an Ingress to access the service using http://127.0.0.1/music 
 
-
---------------------------------
 
 ### First Step - install docker ,kubernetes
 ### Install the nginx ingress-controller in your cluster, follow
