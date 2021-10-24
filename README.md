@@ -12,7 +12,12 @@
 ## hte
         https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/
 
-### First Step - install docker ,kubernetes
+### Before you begin
+      You need to have a Kubernetes cluster, and the kubectl command-line tool must be configured to communicate with your cluster. It is recommended to run this tutorial on a         cluster with at least two nodes that are not acting as control plane hosts. If you do not already have a cluster, you can create one by using minikube or you can use one         of these Kubernetes playgrounds:
+
+      Katacoda
+      Play with Kubernetes
+      Your Kubernetes server must be at or later than version v1.10. To check the version, enter kubectl version.
 ### Install the nginx ingress-controller in your cluster, follow
 ### instructions in this link
 https://kubernetes.github.io/ingress-nginx/deploy/#docker-desktop
