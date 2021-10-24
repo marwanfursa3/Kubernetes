@@ -9,6 +9,9 @@
 ### Create an Ingress to access the service using http://127.0.0.1/music 
 
 -------
+## hte
+        https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/
+
 ### First Step - install docker ,kubernetes
 ### Install the nginx ingress-controller in your cluster, follow
 ### instructions in this link
