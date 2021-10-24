@@ -8,7 +8,7 @@
 ### Once Exposed and verified scale your pods to 2
 ### Create an Ingress to access the service using http://127.0.0.1/music 
 
-
+-------
 ### First Step - install docker ,kubernetes
 ### Install the nginx ingress-controller in your cluster, follow
 ### instructions in this link
