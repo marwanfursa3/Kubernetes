@@ -9,7 +9,7 @@
 ### Create an Ingress to access the service using http://127.0.0.1/music 
 
 -------
-## hte
+## visit and follow the steps
         https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/
 
 ### Before you begin
