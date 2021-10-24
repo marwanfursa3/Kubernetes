@@ -26,7 +26,7 @@ https://kubernetes.github.io/ingress-nginx/deploy/#docker-desktop
 ### Create a new (deployment,server,ingress) 
        kubectl apply -f Kubernetes-ingress.yaml 
 ### check if the Deployment was created
-         kubectl get deploy
+         kubectl get deployment
 ### check if the server was created
          kubectl get svc
 ### check if the ingress was created
@@ -36,6 +36,6 @@ https://kubernetes.github.io/ingress-nginx/deploy/#docker-desktop
 ### check if the Pods is 2
        kubectl get po
 ## Forward a local port to a port on the deployment's Pods.
-       kubectl port-forward deployments/spring-deployment 8080
+       kubectl port-forward pods/spring-deployment 8080
 
 ## Now you can go to  http://127.0.0.1/music 
